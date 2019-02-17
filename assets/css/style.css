@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Unica+One');
+
+h1{
+  font-size: 50px !important;
+  font-weight: bold;
+  font-family: 'Unica One', cursive !important;
+}
+
+.container{
+  margin: auto;
+  width: 1040px;
+  padding-top: 60px;
+}
+
+a,ul.menu.menu-hover-lines,
+div.top-bar-right,
+div.top-bar.foundation-5-top-bar{
+  font-size: 20px;
+    background-color: white !important;
+    font-family: 'Unica One', cursive !important;
+}
+
+.menu-hover-lines {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.35s ease;
+  }
+  
+  .menu-hover-lines li a {
+    padding: 0.75rem 0;
+    color: rgba(10, 10, 10, 0.5);
+    position: relative;
+    margin-left: 1rem;
+  }
+  
+  .menu-hover-lines li:first-child a {
+    margin-left: 0;
+  }
+  
+  .menu-hover-lines li.active > a {
+    background-color: transparent;
+  }
+  
+  .menu-hover-lines a:before,
+  .menu-hover-lines a::after {
+    height: 3px;
+    position: absolute;
+    content: '';
+    transition: all 0.35s ease;
+    background-color: #1779ba;
+    width: 0;
+  }
+  
+  .menu-hover-lines a::before {
+    top: 0;
+    left: 0;
+  }
+  
+  .menu-hover-lines a::after {
+    bottom: 0;
+    right: 0;
+  }
+  
+  .menu-hover-lines a:hover,
+  .menu-hover-lines li.active > a {
+    color: #0a0a0a;
+    transition: all 0.35s ease;
+  }
+  
+  .menu-hover-lines a:hover::before,
+  .menu-hover-lines .active a::before,
+  .menu-hover-lines a:hover::after,
+  .menu-hover-lines .active a::after {
+    width: 100%;
+  }
+  
+  
+.featured-image-block-grid-header {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .featured-image-block {
+    margin-bottom: 20px;
+  }
+  
+  .featured-image-block .featured-image-block-title {
+    font-weight: 600;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1em;
+    color: #404040;
+  }
+  
+  .featured-image-block a:hover p {
+    color: silver;
+  }
+  
+  
