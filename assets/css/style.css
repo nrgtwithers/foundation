@@ -8,7 +8,7 @@ h1{
 
 .container{
   margin: auto;
-  width: 1040px;
+  width: 1200px;
   padding-top: 60px;
 }
 
@@ -16,8 +16,10 @@ a,ul.menu.menu-hover-lines,
 div.top-bar-right,
 div.top-bar.foundation-5-top-bar{
   font-size: 20px;
+  color: black !important;
     background-color: white !important;
     font-family: 'Unica One', cursive !important;
+
 }
 
 .menu-hover-lines {
@@ -92,7 +94,7 @@ div.top-bar.foundation-5-top-bar{
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 1em;
-    color: #404040;
+    color: #000000;
   }
   
   .featured-image-block a:hover p {
