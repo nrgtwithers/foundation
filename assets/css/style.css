@@ -14,7 +14,7 @@ h1{
   padding-top: 60px;
 }
 
-a,ul.menu.menu-hover-lines,
+li,a,ul.menu.menu-hover-lines,
 div.top-bar-right,
 div.top-bar.foundation-5-top-bar{
   font-size: 20px;
@@ -24,17 +24,28 @@ div.top-bar.foundation-5-top-bar{
 
 }
 
+.top-bar-title{
+  border: 1px;
+  border-color:black;
+  padding: 5px;
+  background:black;
+}
+
+li a:hover{
+  color: silver;
+}
+
 .menu-hover-lines {
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     transition: all 0.35s ease;
   }
   
   .menu-hover-lines li a {
     padding: 0.75rem 0;
-    color: rgba(10, 10, 10, 0.5);
+    /* color: rgba(10, 10, 10, 0.5); */
     position: relative;
     margin-left: 1rem;
   }
@@ -49,11 +60,12 @@ div.top-bar.foundation-5-top-bar{
   
   .menu-hover-lines a:before,
   .menu-hover-lines a::after {
-    height: 3px;
+    height: 1px;
     position: absolute;
     content: '';
     transition: all 0.35s ease;
-    background-color: #1779ba;
+    background-color: white;
+    color: silver;
     width: 0;
   }
   
@@ -69,7 +81,7 @@ div.top-bar.foundation-5-top-bar{
   
   .menu-hover-lines a:hover,
   .menu-hover-lines li.active > a {
-    color: #0a0a0a;
+    color: #000000;
     transition: all 0.35s ease;
   }
   
