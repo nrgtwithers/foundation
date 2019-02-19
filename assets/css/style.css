@@ -138,4 +138,12 @@ li a:hover{
 .featured-image-block a:hover p {
   color: #1779ba;
 }
-  
+
+.form{
+  padding: 15px;
+  margin: auto;
+  width: 800px;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+}
