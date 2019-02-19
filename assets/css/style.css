@@ -10,7 +10,7 @@ h1{
 
 .container1{
   margin: auto;
-  /* width: 1210px; */
+  width: 1210px;
   padding-top: 60px;
 }
 
@@ -140,6 +140,7 @@ a:hover,li a:hover{
 }
 
 .form{
+  /* margin-top: 20px; */
   padding: 15px;
   margin: auto;
   width: 800px;
@@ -148,35 +149,35 @@ a:hover,li a:hover{
   border-color: black;
 }
 
-.tech-slideshow {
-  height: 200px;
-  max-width: 800px;
+.photoshoot-slideshow {
+  height: 650px;
+  max-width: 1180px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
   transform: translate3d(0, 0, 0);
 }
 
-.tech-slideshow > div {
+.photoshoot-slideshow > div {
   height: 200px;
   width: 2526px;
-  background: url('/assets/images/beauty.jpeg');
+  background: url(https://github.com/nrgtwithers/foundation/blob/master/assets/images/collage.png?raw=true);
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   transform: translate3d(0, 0, 0);
 }
-.tech-slideshow .mover-1 {
+.photoshoot-slideshow .mover-1 {
   animation: moveSlideshow 12s linear infinite;
 }
-.tech-slideshow .mover-2 {
+.photoshoot-slideshow .mover-2 {
   opacity: 0;
   transition: opacity 0.5s ease-out;
   background-position: 0 -200px;
   animation: moveSlideshow 15s linear infinite;
 }
-.tech-slideshow:hover .mover-2 {
+.photoshoot-slideshow:hover .mover-2 {
   opacity: 1;
 }
 
