@@ -8,6 +8,13 @@ h1{
   font-family: 'Unica One', cursive !important;
 }
 
+h5{
+  font-size: 22px !important;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Unica One', cursive !important; 
+}
+
 .container1{
   margin: auto;
   width: 1210px;
